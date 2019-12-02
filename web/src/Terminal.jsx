@@ -51,7 +51,7 @@ export default function Terminal() {
       terminalIns.focus();
       fitAddon.fit();
     }
-  }, [terminalRef, terminalIns])
+  }, [terminalRef, terminalIns]);
   return (
     <div style={{ width: '800px', height: '400px', margin: '20px auto' }} ref={terminalRef} />
   );
